@@ -19,7 +19,7 @@ public:
 };
 
 int n;
-vector <Student> v;
+vector <Student> v; 
 
 int main() {
 

@@ -14,7 +14,7 @@ bool compare(int a, int b) {
 }
 
 int main() {
-
+	 
 	cin >> n >> k;
 
 	for (int i = 0; i < n; i++)
