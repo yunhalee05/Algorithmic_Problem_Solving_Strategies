@@ -22,7 +22,7 @@ int main() {
 	
 	
 	/* 
-	贸澜 钱菌带 规过
+	贸澜 钱菌带 规过(1)
 	int n, m, card[100][100], LowNum[100], Min=2147000000;
 
 	for (int i = 0; i < n; i++)
@@ -44,6 +44,36 @@ int main() {
 	}
 	cout << Max << endl;
 
+
+	滴锅掳 钱菌带 规过(2)
+	int n, m, num, min_num;
+	int a[100][100];
+
+	int main() {
+
+	cin >> n >> m;
+	memset(a, 10000, sizeof(a));
+
+	num = -1;
+	for (int i = 0; i < n; i++) {
+		min_num = 10000;
+		for (int j = 0; j < m; j++) {
+			cin >> a[i][j];
+			if (min_num > a[i][j]) {
+				min_num = a[i][j];
+			}
+		}
+		if (min_num > num) {
+			num = min_num;
+		}
+	}
+
+	cout << num;
+
+	return 0;
+
+
+}
 	*/
 
 	return 0;

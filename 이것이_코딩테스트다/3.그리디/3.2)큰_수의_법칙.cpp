@@ -53,6 +53,38 @@ int main() {
 		answer += number[1];
 		m--;
 	}
+
+	3.
+
+	int n, m, k,num;
+	vector <int> v;
+
+	int main() {
+
+	cin >> n >> m >> k;
+	int a;
+	for (int i = 0; i < n; i++) {
+		cin >> a;
+		v.push_back(a);
+	}
+	num = 0;
+	sort(v.begin(), v.end(), greater<int>());
+
+	while (m >= k) {
+		num += (v[0] * k + v[1]);
+		m -= (k + 1);
+	}
+
+	num += (m * v[0]);
+
+	cout << num;
+
+	return 0;
+
+}
+
+
+
 	*/
 
 	cout << answer << endl;
